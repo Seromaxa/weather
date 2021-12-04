@@ -1,0 +1,36 @@
+.form_conteiner {
+  min-height: 145px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: chocolate;
+  margin: 10px 0 30px 0;
+}
+
+.form_input {
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.form_button {
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 100%;
+}
+.no_padding {
+  padding: 0;
+}
+
+.col_margin {
+  margin: 0 0 20px 0;
+}
+.centre_content {
+  justify-content: center;
+}
+
+@media screen and (min-width: 250px) and (max-width: 767px) {
+  .form_input,
+  .form_button {
+    border-radius: 30px;
+  }
+}

@@ -1,0 +1,13 @@
+.error {
+  color: rgb(255, 0, 0);
+}
+.bottom_border {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.padding_top {
+  padding-top: 20px;
+}
+.wrapper {
+  padding: 70px 0 20px 0;
+  min-height: 100vh;
+}
